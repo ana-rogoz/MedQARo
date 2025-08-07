@@ -1,3 +1,7 @@
 # RoMedQA: The First Benchmark for Medical Question Answering in Romanian
 
 We introduce RoMedQA, the first Romanian QA benchmark for the medical domain, alongside a comprehensive evaluation of state‐of‐the‐art large language models (LLMs). We construct a high‑quality and large-scale dataset comprising 102,646 QA pairs related to cancer patients. The questions regard medical case summaries of 1,011 patients, requiring either keyword extraction or reasoning to be answered correctly. RoMedQA is the result of a time-consuming manual annotation process carried out by 7 physicians specialized in oncology or radiotherapy, who spent a total of about 2,100 work hours to generate the QA pairs. We experiment with four LLMs from distinct families of models on RoMedQA. Each model is employed in two scenarios, namely one based on zero‑shot prompting and one based on supervised fine‑tuning. Our results show that fine‑tuned models significantly outperform their zero-shot counterparts, clearly indicating that generic pre-trained models fail to generalize on RoMedQA. Our findings demonstrate the importance of both domain‐specific and language‐specific adaptation for reliable clinical QA in Romanian.
+
+
+
+We make our dataset available [here](https://drive.google.com/file/d/12bPxcPttGd6UBMDxPeE-42EuBSAFTbqj/view?usp=sharing). 
