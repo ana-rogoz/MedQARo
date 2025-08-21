@@ -19,7 +19,7 @@ The dataset and code are released under: [Creative Commons Attribution Non Comme
 
 ## About <a name = "about"></a>
 
-We introduce \textbf{RoMedQA}, the first and only large-scale medical QA dataset in Romanian, comprising 102,646 QA instances obtained with the help of trained physicians. For our dataset, we benchmark four LLMs from distinct families of models across multiple configurations and report comprehensive performance metrics under both zero-shot and fine-tuning configurations. We release the dataset, together with the relevant code to reproduce the results in this repository. 
+We introduce **RoMedQA**, the first and only large-scale medical QA dataset in Romanian, comprising 102,646 QA instances obtained with the help of trained physicians. For our dataset, we benchmark four LLMs from distinct families of models across multiple configurations and report comprehensive performance metrics under both zero-shot and fine-tuning configurations. We release the dataset, together with the relevant code to reproduce the results in this repository. 
 
 
 Our dataset available [here](https://drive.google.com/file/d/12bPxcPttGd6UBMDxPeE-42EuBSAFTbqj/view?usp=sharing). 
