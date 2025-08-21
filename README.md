@@ -25,7 +25,7 @@ We introduce **RoMedQA**, the first and only large-scale medical QA dataset in R
 
 ### Dataset <a name = "dataset"></a>
 
-Given the size of our dataset, we make it available externally at the following [link](https://drive.google.com/file/d/12bPxcPttGd6UBMDxPeE-42EuBSAFTbqj/view?usp=sharing). 
+Given the size of our dataset, we make it available externally at the following [link](https://drive.proton.me/urls/TRYG8BYNH0#6od8qxDPk8qy). 
 
 |                | Number of patients              |                     |       | Number of samples              |                     |       |
 |----------------|---------------------------------|---------------------|-------|--------------------------------|---------------------|-------|
