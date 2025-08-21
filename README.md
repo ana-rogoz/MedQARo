@@ -12,6 +12,8 @@ The dataset and code are released under: [Creative Commons Attribution Non Comme
 <a name = "tabel_of_contents"></a>
 
   - [About ](#about-)
+  - [Dataset](#dataset-)
+  - [Methods](#method-)
   - [Getting Started ](#getting-started-)
   - [Usage ](#usage-)
   - [Developed with ](#️-developed-with-)
@@ -21,8 +23,20 @@ The dataset and code are released under: [Creative Commons Attribution Non Comme
 
 We introduce **RoMedQA**, the first and only large-scale medical QA dataset in Romanian, comprising 102,646 QA instances obtained with the help of trained physicians. For our dataset, we benchmark four LLMs from distinct families of models across multiple configurations and report comprehensive performance metrics under both zero-shot and fine-tuning configurations. We release the dataset, together with the relevant code to reproduce the results in this repository. 
 
+### Dataset <a name = "dataset"></a>
 
-Our dataset available [here](https://drive.google.com/file/d/12bPxcPttGd6UBMDxPeE-42EuBSAFTbqj/view?usp=sharing). 
+Given the size of our dataset, we make it available externally at the following [link](https://drive.google.com/file/d/12bPxcPttGd6UBMDxPeE-42EuBSAFTbqj/view?usp=sharing). 
+
+|                | Number of patients              |                     |       | Number of samples              |                     |       |
+|----------------|---------------------------------|---------------------|-------|--------------------------------|---------------------|-------|
+|                | Train                           | Validation          | Test  | Train                          | Validation          | Test  |
+| Breast cancer  | 557                             | 119                 | 120   | 53,472                         | 11,424              | 11,520|
+| Lung cancer    | 150                             | 32                  | 33    | 18,300                         | 3,904               | 4,026 |
+| **Total**      | **707**                         | **151**             | **153** | **71,772**                    | **15,328**          | **15,546** |
+|                | **Total: 1,011**                |                     |       | **Total: 102,646**             |                     |       |
+
+
+### Methods <a name = "method"></a>
 
 ## Getting Started <a name = "getting_started"></a>
 
