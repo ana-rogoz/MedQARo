@@ -26,6 +26,7 @@ We introduce **RoMedQA**, the first and only large-scale medical QA dataset in R
 ### Dataset <a name = "dataset"></a>
 
 Given the size of our dataset, we make it available externally at the following [link](https://drive.proton.me/urls/TRYG8BYNH0#6od8qxDPk8qy). 
+We also present the detailed stats and composition of our dataset in the table below:
 
 |                | Number of patients              |                     |       | Number of samples              |                     |       |
 |----------------|---------------------------------|---------------------|-------|--------------------------------|---------------------|-------|
@@ -38,11 +39,18 @@ Given the size of our dataset, we make it available externally at the following 
 
 ### Methods <a name = "method"></a>
 
+In our work, we fine-tuned the following four models:
+* [OpenLLM-Ro/RoLlama2-7b-Instruct](https://huggingface.co/OpenLLM-Ro/RoLlama2-7b-Instruct)
+* [RoMistral-7b-Instruct](https://huggingface.co/OpenLLM-Ro/RoMistral-7b-Instruct)
+* [Llama3-OpenBioLLM-8B](https://huggingface.co/aaditya/Llama3-OpenBioLLM-8B)
+* [Phi-4-mini-instruct](https://huggingface.co/microsoft/Phi-4-mini-instruct)
+
 ## Getting Started <a name = "getting_started"></a>
 
 There are no environment dependencies that should be installed, although the dataset should be downloaded before running each of the the notebooks.
 
 ## Usage <a name="usage"></a>
+We make available under the `Fine tuning` dir the model fine-tuning, using our official data split and model config. After completing the fine-tuning, one can use our script under the `Evaluate` dir for assesing the performance of their model.
 
 The training and testing of the models is performed by running the notebook with the respective model name.
 
