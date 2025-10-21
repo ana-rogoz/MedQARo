@@ -22,7 +22,7 @@ We introduce **MedQARo**, the first and only large-scale medical QA dataset in R
 
 ### Dataset <a name = "dataset"></a>
 
-Given the size of our dataset, we make it available externally at the following [link](https://drive.proton.me/urls/FFQS6E2N10#I1Jn6c5GcQlq). 
+Given the size of our dataset, we make it available externally at the following [link](https://drive.proton.me/urls/Q4FBRH5V3W#NkVWz1EnsejF). 
 
 We also present the detailed stats and composition of our dataset in the table below:
 
