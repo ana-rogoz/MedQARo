@@ -18,7 +18,7 @@ The dataset and code are released under: [Creative Commons Attribution Non Comme
 
 ## About <a name = "about"></a>
 
-We introduce **MedQARo**, the first and only large-scale medical QA dataset in Romanian, comprising 102,646 QA instances obtained with the help of trained physicians. For our dataset, we benchmark four LLMs from distinct families of models across multiple configurations and report comprehensive performance metrics under both zero-shot and fine-tuning configurations. We release the dataset, together with the relevant code to reproduce the results in this repository. 
+We introduce **MedQARo**, the first and only large-scale medical QA dataset in Romanian, comprising 105,880 QA instances obtained with the help of trained physicians. For our dataset, we benchmark four LLMs from distinct families of models across multiple configurations and report comprehensive performance metrics under both zero-shot and fine-tuning configurations. We release the dataset, together with the relevant code to reproduce the results in this repository. 
 
 ### Dataset <a name = "dataset"></a>
 
@@ -26,14 +26,14 @@ Given the size of our dataset, we make it available externally at the following 
 
 We also present the detailed stats and composition of our dataset in the table below:
 
-|                | Number of patients              |                     |       | Number of samples              |                     |       |
-|----------------|---------------------------------|---------------------|-------|--------------------------------|---------------------|-------|
-|                | Train                           | Validation          | Test  | Train                          | Validation          | Test  |
-| Breast cancer  | 557                             | 119                 | 120   | 53,472                         | 11,424              | 11,520|
-| Lung cancer    | 150                             | 32                  | 33    | 18,300                         | 3,904               | 4,026 |
-| **Total**      | **707**                         | **151**             | **153** | **71,772**                    | **15,328**          | **15,546** |
-|                | **Total: 1,011**                |                     |       | **Total: 102,646**             |                     |       |
-
+|                    | Number of patients |            |        | **Total** | Number of samples |            |        | **Total** |
+|--------------------|--------------------|------------|--------|-----------|-------------------|------------|--------|-----------|
+|                    | Train              | Validation | Test   |           | Train             | Validation | Test   |           |
+| Breast cancer      | 557                | 119        | 120    | 796       | 53,472            | 11,424     | 11,520 | 76,416    |
+| Lung cancer        | 150                | 32         | 33     | 215       | 18,300            | 3,904      | 4,026  | 26,230    |
+| Other diagnosis    | –                  | –          | –      | 231       | –                 | –          | –      | 3,234     |
+| **Total**          | **707**            | **151**    | **153**| **1,242** | **71,772**        | **15,328** | **15,546** | **105,880** |
+|                    | **Unique: 1,011**  |            |        |           | **Unique: 102,646** |            |        |           |
 
 ### Methods <a name = "methods"></a>
 
